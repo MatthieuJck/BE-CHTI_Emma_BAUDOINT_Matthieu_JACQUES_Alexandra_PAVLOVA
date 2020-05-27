@@ -8,13 +8,14 @@ extern void timer_callback(void);
 extern short Son; 
 extern short LongueurSon; 
 extern short PeriodeSonMicroSec;
-int resolution;
+
 
 type_etat StructSon;
 
 int main(void)
 {
 	float Periode_PWM_en_Tck = 720000;
+	/*int resolution;*/
 	StructSon.son=&Son;
 	StructSon.position = 0;
 	StructSon.taille = LongueurSon;
@@ -27,6 +28,7 @@ int main(void)
 	GPIO_Configure(GPIOB, 0, OUTPUT, ALT_PPULL);
 	// config TIM3-CH3 en mode PWM
 	StructSon.resolution = PWM_Init_ff( TIM3, 3, Periode_PWM_en_Tck );
+	
 	// enregistrement de la fonction de traitement de l'interruption timer
 	// ici le 2 est la priorité, timer_callback est l'adresse de cette fonction, a créér en asm,
 	// cette fonction doit être conforme à l'AAPCS

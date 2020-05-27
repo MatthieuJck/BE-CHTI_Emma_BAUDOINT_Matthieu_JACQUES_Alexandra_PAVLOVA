@@ -338,7 +338,7 @@
               <MiscControls>--C99</MiscControls>
               <Define>STM32F103xB,USE_FULL_LL_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\GASSP72;..\Obj3_code\Son</IncludePath>
+              <IncludePath>..\GASSP72;..\Obj3_code\Son\bruitsverre.asm</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -392,11 +392,6 @@
               <FileType>2</FileType>
               <FilePath>.\Src\projet.s</FilePath>
             </File>
-            <File>
-              <FileName>etat.inc</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\etat.inc</FilePath>
-            </File>
           </Files>
         </Group>
         <Group>
@@ -423,9 +418,9 @@
           <GroupName>Son</GroupName>
           <Files>
             <File>
-              <FileName>laser.asm</FileName>
+              <FileName>bruitverre.asm</FileName>
               <FileType>2</FileType>
-              <FilePath>.\Son\laser.asm</FilePath>
+              <FilePath>.\Son\bruitverre.asm</FilePath>
             </File>
           </Files>
         </Group>
