@@ -338,7 +338,7 @@
               <MiscControls>--C99</MiscControls>
               <Define>STM32F103xB,USE_FULL_LL_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\GASSP72;..\Obj3_code\Son\bruitsverre.asm</IncludePath>
+              <IncludePath>..\GFSSP72;..\Obj3_code\Son\bruitsverre.asm</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -380,7 +380,7 @@
       </TargetOption>
       <Groups>
         <Group>
-          <GroupName>Sources</GroupName>
+          <GroupName>Source</GroupName>
           <Files>
             <File>
               <FileName>principal.c</FileName>
@@ -388,9 +388,9 @@
               <FilePath>.\Src\principal.c</FilePath>
             </File>
             <File>
-              <FileName>projet.s</FileName>
+              <FileName>bruit.s</FileName>
               <FileType>2</FileType>
-              <FilePath>.\Src\projet.s</FilePath>
+              <FilePath>.\Src\bruit.s</FilePath>
             </File>
           </Files>
         </Group>
@@ -398,9 +398,9 @@
           <GroupName>Driver</GroupName>
           <Files>
             <File>
-              <FileName>gassp72.lib</FileName>
+              <FileName>gfssp72.lib</FileName>
               <FileType>4</FileType>
-              <FilePath>..\GASSP72\gassp72.lib</FilePath>
+              <FilePath>..\GFSSP72\gfssp72.lib</FilePath>
             </File>
           </Files>
         </Group>
