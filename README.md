@@ -1,2 +1,0 @@
-# BE-CHTI_Emma_BAUDOINT_Matthieu_JACQUES_Alexandra_PAVLOVA
-Dépôt GIT du BE CHTI
