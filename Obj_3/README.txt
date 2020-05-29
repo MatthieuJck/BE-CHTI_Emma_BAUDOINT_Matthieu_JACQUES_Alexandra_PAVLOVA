@@ -1,4 +1,4 @@
-Dans le logic analyser observer TIM3_ CCR, l'échelle va de 0 à 70000.
+Dans le logic analyser observer TIM3_ CCR3, l'échelle va de 0 à 70000.
 Lancer le programme et attendre de 1 à 2 s. Arrêter ensuite le programme.
 Faire un zoom all, on observe qu'un signal à été reçu.
  
