@@ -65,12 +65,6 @@ void sys_callback()
 				case 23 : compt[4]=0; break;
 				case 24 : compt[5]=0;	break;
 				default : break;}
-			/*compt[0]=0;
-			compt[1]=0;
-			compt[2]=0;
-			compt[3]=0;
-			compt[4]=0;
-			compt[5]=0;*/
 		}
 		
 	}

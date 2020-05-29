@@ -338,7 +338,7 @@
               <MiscControls>--C99</MiscControls>
               <Define>STM32F103xB,USE_FULL_LL_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\GFSSP72</IncludePath>
+              <IncludePath>GFSSP72</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -356,7 +356,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath></IncludePath>
+              <IncludePath>..\GFSSP72</IncludePath>
             </VariousControls>
           </Aads>
           <LDads>
@@ -400,7 +400,7 @@
             <File>
               <FileName>gfssp72.lib</FileName>
               <FileType>4</FileType>
-              <FilePath>..\GFSSP72\gfssp72.lib</FilePath>
+              <FilePath>.\GFSSP72\gfssp72.lib</FilePath>
             </File>
           </Files>
         </Group>
@@ -420,7 +420,7 @@
             <File>
               <FileName>Trigo.asm</FileName>
               <FileType>2</FileType>
-              <FilePath>..\Etape2.2\Etape2.2\Data\Trigo.asm</FilePath>
+              <FilePath>.\Data\Trigo.asm</FilePath>
             </File>
           </Files>
         </Group>
