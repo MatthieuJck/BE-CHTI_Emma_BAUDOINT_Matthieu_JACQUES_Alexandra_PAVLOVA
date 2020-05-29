@@ -107,9 +107,20 @@ int main(void)
 	SysTick_On;
 	SysTick_Enable_IT;
 	
+	/*Variable qui permet de n'augmenter le socre qu'une seule fois quand on est à compt[indice]==7*/
+	int DejaFait = 0;
 	while	(1)
 		{
-
+			//On prend la DFT sur 7 périodes consécutives, un tir faisant 100ms et le calcul de notre DFT est réalisé toutes les 10 ms
+			if (compt[indice]==7 && DejaFait == 0)
+			{
+				score[indice]++;
+				DejaFait =1;
+			}
+			if (compt[indice]==8)
+			{
+				DejaFait = 0;
+			}
 				
 		}
 }

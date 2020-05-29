@@ -6,3 +6,9 @@ On utilise le signal 0x33 donc nous sommes sensés observer:
 4 pics sur compt[3]
 5 pics sur compt[4]
 pas de pic sur le compt[5]
+
+Il faut aussi observer les score[x] de 0 à 5, et vérifier qu'il s'incrémente à chaque fois qu'on a un pic sur le compt[] correspondant 
+Lancer le programme, attendre environ 10 secondes puis l'arrêter (on observe pas forcément les signaux en temps réel pendant les 10 secondes de fonctionnement du programme)
+Faire un zoom: all
+
+Vérifier les observations
